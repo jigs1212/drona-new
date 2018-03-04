@@ -255,12 +255,13 @@ a:hover {
 .topHome:hover {
     color: #F89F9F;
 }
+
 .reg-btn {
     position: fixed;
     bottom: 20px;
     left: 20px;
     z-index: 5;
-    background-color: #46b8da !important; 
+    background-color: #46b8da !important;
 }
 
 .reg-btn:hover {
@@ -1570,4 +1571,19 @@ footer input.form-control {
     max-height: 100px !important;
     max-width: 100% !important;
     margin-top: -20px !important;
+}
+
+.youtube-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
