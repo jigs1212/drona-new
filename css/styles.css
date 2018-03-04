@@ -1619,8 +1619,3 @@ footer input.form-control {
         margin-top: -20px !important;
     }
 }
-@media (min-width:1200px) {
-    .customNavigation{
-        display: none;
-    }
-}
