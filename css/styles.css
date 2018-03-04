@@ -260,6 +260,7 @@ a:hover {
     bottom: 20px;
     left: 20px;
     z-index: 5;
+    background-color: #46b8da !important; 
 }
 
 .reg-btn:hover {
