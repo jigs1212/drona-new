@@ -1553,6 +1553,7 @@ footer input.form-control {
     border: 10px solid white;
 }
 
+.event-description-tandra h1, .event-description-hexa h1, .event-description-asthra h1, .event-description-oera h1,
 .event-description-tandra h2, .event-description-hexa h2, .event-description-asthra h2, .event-description-oera h2, .event-description-tandra li, .event-description-hexa li, .event-description-asthra li, .event-description-oera li {
     color: white !important;
 }
