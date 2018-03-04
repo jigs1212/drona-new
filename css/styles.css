@@ -1212,6 +1212,7 @@ footer input.form-control {
 }
 
 @media (max-width: 768px) {
+
     .banner-container {
         background-size: contain;
     }
@@ -1377,10 +1378,12 @@ footer input.form-control {
         border-radius: 4px;
     }
     #portfolio .items li {
-        position: relative;
-        float: left;
-        width: 50%;
-        overflow: hidden;
+        /* position: relative; */
+        /* float: left; */
+        width: 100%;
+        padding: 5px 0;
+        background: transparent
+        /* overflow: hidden; */
     }
 }
 
@@ -1520,7 +1523,7 @@ footer input.form-control {
 }
 
 .customNavigation {
-    display: none;
+    /* display: none; */
 }
 
 #clients .heading {
@@ -1586,4 +1589,38 @@ footer input.form-control {
     left: 0;
     width: 100%;
     height: 100%;
+}
+.white h2,
+.white li{
+    color:white;
+}
+.p-20{
+    padding: 20px 0;
+}
+.btn-cstm{
+    border: 1px solid wheat;
+    background-color: #428bca;
+}
+@media (max-width:325px) {
+    .header-logo{
+        height: 40px !important;
+        margin-top: -10px !important;
+    }
+}
+@media (min-width:326px) and (max-width:480px) {
+    .header-logo{
+        height: 40px !important;
+        margin-top: -10px !important;
+    }
+}
+@media (min-width:481px) and (max-width:767px) {
+    .header-logo{
+        height: 40px !important;
+        margin-top: -20px !important;
+    }
+}
+@media (min-width:1200px) {
+    .customNavigation{
+        display: none;
+    }
 }
