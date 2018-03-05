@@ -80,7 +80,14 @@ var customScripts = {
     },
     owlSlider: function() {
         var owl = $("#owl-demo");
-        owl.owlCarousel();
+        owl.owlCarousel({
+            items: 5,
+            loop: true,
+            margin: 10,
+            autoPlay: true,
+            autoPlayTimeout: 1000,
+            autoPlayHoverPause: true
+        });
         // Custom Navigation Events
         $(".next").click(function() {
             owl.trigger('owl.next');
@@ -172,77 +179,77 @@ $('document').ready(function() {
     // );
 
     // tandra hover
-      $("#tandra").mouseenter(function(event) {
+    $("#tandra").mouseenter(function(event) {
         $(".event-description-tandra").addClass('display-block-anim');
-        $('.colord').css('background-color','#505160');
-      });
-      $(".event-description-tandra").mouseenter(function(event) {
-          $('.colord').css('background-color','#505160');
+        $('.colord').css('background-color', '#505160');
+    });
+    $(".event-description-tandra").mouseenter(function(event) {
+        $('.colord').css('background-color', '#505160');
         $(".event-description-tandra").addClass('display-block');
-      });
-      $(".event-description-tandra").mouseleave(function(event) {
-          $('.colord').css('background-color','#A43E89');
+    });
+    $(".event-description-tandra").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
         $(".event-description-tandra").removeClass('display-block-anim display-block').addClass('display-n');
-      });
-      $("#tandra").mouseleave(function(event) {
-          $('.colord').css('background-color','#A43E89');
+    });
+    $("#tandra").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
         $(".event-description-tandra").removeClass('display-block-anim display-block').addClass('display-n');
-      });
+    });
 
 
-      // hexa hover
-        $("#hexa").mouseenter(function(event) {
-            $('.colord').css('background-color','#68829e');
-          $(".event-description-hexa").addClass('display-block-anim');
-        });
-        $(".event-description-hexa").mouseenter(function(event) {
-            $('.colord').css('background-color','#68829e');
-          $(".event-description-hexa").addClass('display-block');
-        });
-        $(".event-description-hexa").mouseleave(function(event) {
-            $('.colord').css('background-color','#A43E89');
-          $(".event-description-hexa").removeClass('display-block-anim display-block').addClass('display-n');
-        });
-        $("#hexa").mouseleave(function(event) {
-            $('.colord').css('background-color','#A43E89');
-          $(".event-description-hexa").removeClass('display-block-anim display-block').addClass('display-n');
-        });
+    // hexa hover
+    $("#hexa").mouseenter(function(event) {
+        $('.colord').css('background-color', '#68829e');
+        $(".event-description-hexa").addClass('display-block-anim');
+    });
+    $(".event-description-hexa").mouseenter(function(event) {
+        $('.colord').css('background-color', '#68829e');
+        $(".event-description-hexa").addClass('display-block');
+    });
+    $(".event-description-hexa").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
+        $(".event-description-hexa").removeClass('display-block-anim display-block').addClass('display-n');
+    });
+    $("#hexa").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
+        $(".event-description-hexa").removeClass('display-block-anim display-block').addClass('display-n');
+    });
 
-        // asthra hover
-          $("#asthra").mouseenter(function(event) {
-              $('.colord').css('background-color','#003b46');
-            $(".event-description-asthra").addClass('display-block-anim');
-          });
-          $(".event-description-asthra").mouseenter(function(event) {
-              $('.colord').css('background-color','#003b46');
-            $(".event-description-asthra").addClass('display-block');
-          });
-          $(".event-description-asthra").mouseleave(function(event) {
-              $('.colord').css('background-color','#A43E89');
-            $(".event-description-asthra").removeClass('display-block-anim display-block').addClass('display-n');
-          });
-          $("#asthra").mouseleave(function(event) {
-              $('.colord').css('background-color','#A43E89');
-            $(".event-description-asthra").removeClass('display-block-anim display-block').addClass('display-n');
-          });
+    // asthra hover
+    $("#asthra").mouseenter(function(event) {
+        $('.colord').css('background-color', '#003b46');
+        $(".event-description-asthra").addClass('display-block-anim');
+    });
+    $(".event-description-asthra").mouseenter(function(event) {
+        $('.colord').css('background-color', '#003b46');
+        $(".event-description-asthra").addClass('display-block');
+    });
+    $(".event-description-asthra").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
+        $(".event-description-asthra").removeClass('display-block-anim display-block').addClass('display-n');
+    });
+    $("#asthra").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
+        $(".event-description-asthra").removeClass('display-block-anim display-block').addClass('display-n');
+    });
 
-          // oera hover
-            $("#oera").mouseenter(function(event) {
-                $('.colord').css('background-color','#598234');
-              $(".event-description-oera").addClass('display-block-anim');
-            });
-            $(".event-description-oera").mouseenter(function(event) {
-                $('.colord').css('background-color','#598234');
-              $(".event-description-oera").addClass('display-block');
-            });
-            $(".event-description-oera").mouseleave(function(event) {
-                $('.colord').css('background-color','#A43E89');
-              $(".event-description-oera").removeClass('display-block-anim display-block').addClass('display-n');
-            });
-            $("#oera").mouseleave(function(event) {
-                $('.colord').css('background-color','#A43E89');
-              $(".event-description-oera").removeClass('display-block-anim display-block').addClass('display-n');
-            });
+    // oera hover
+    $("#oera").mouseenter(function(event) {
+        $('.colord').css('background-color', '#598234');
+        $(".event-description-oera").addClass('display-block-anim');
+    });
+    $(".event-description-oera").mouseenter(function(event) {
+        $('.colord').css('background-color', '#598234');
+        $(".event-description-oera").addClass('display-block');
+    });
+    $(".event-description-oera").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
+        $(".event-description-oera").removeClass('display-block-anim display-block').addClass('display-n');
+    });
+    $("#oera").mouseleave(function(event) {
+        $('.colord').css('background-color', '#A43E89');
+        $(".event-description-oera").removeClass('display-block-anim display-block').addClass('display-n');
+    });
 
 
 });
